@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap"
+        rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ayush Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PROJECT</a></li>
+                    <li><a href="">TRAINING AND CERTIFICATIONS</a></li>
+                    <li><a href="">CO/EXTRA CURRICULAR ACTIVITIES</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="l">
+                <div>Hi my name is <span class="text-purple">Ayush Malik.</span></div>
+                <div class="about">I am a Engineering Student and </div>
+                <span id="element"></span>
+            </div>
+            <div class="r">
+                <img src="pic.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">My skill sets inculdes</span>
+            <h1>Technical Skills</h1>
+            <div class="TS">
+                <div class="TS1"></div>
+                <div class="TS1"></div>
+                <div class="TS1"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="footer-first">
+                Ayush Portfolio
+            </div>
+            <div class="footer-second"></div>
+            <div class="footer-third"></div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['a Web Developer', 'a Graphic Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
